@@ -51,12 +51,13 @@ body {
 }
 
 .input {
-    /* border-color: aqua; */
+    border-color: rgb(116, 248, 248);
+    border-radius: 50px;
     width: 250px;
     margin: 5px 0px 0px 0px;
-    padding: 10px 10px 0px 0px;
-    opacity: 50%;
-    text-align: center;
+    padding: 10px 10px 5px 10px;
+    opacity: 70%;
+
 
 }
 
@@ -65,11 +66,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 262px;
+    width: 274px;
     margin: 20px 0px 0px 0px;
-    padding: 5px;
+    padding: 8px;
+    cursor: pointer;
 
+}
 
+button {
+    background-color: rgb(92, 193, 248);
+    color: rgb(0, 0, 0);
+    /* background-color: transparent; */
+    border: 2px solid rgb(99, 167, 249);
+    border-radius: 50px;
+    font-family: Comic Sans MS;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
 }
 
 
