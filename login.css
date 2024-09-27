@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 54);
+}
+
+.box {
+    border-radius: 5%;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(79, 82, 82);
+    box-shadow: 0px 0px 50px rgb(92, 193, 248);
+    padding: 20px 0px 0px 0px;
+
+}
+
+.box h2 {
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(232, 8, 8); */
+}
+
+.box1 {
+
+    /* background-color: rgb(203, 232, 11); */
+    height: 250px;
+    width: 500px;
+    /* text-align: center; */
+    padding: 60px 0px 0px 0px;
+}
+
+.box h5 {
+    font-size: 20px;
+    margin: 5px 0px 0px 0px;
+}
+
+.up {
+    /* background-color: blue; */
+    padding: 0px 0px 0px 120px;
+}
+
+.input {
+    /* border-color: aqua; */
+    width: 250px;
+    margin: 5px 0px 0px 0px;
+    padding: 10px 10px 0px 0px;
+    opacity: 50%;
+    text-align: center;
+
+}
+
+.btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+
+
+}
+
+
+
+p {
+    font-family: Consolas;
+    text-align: center;
+    color: antiquewhite;
+}
